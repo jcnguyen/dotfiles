@@ -22,4 +22,4 @@ personal=cd %UserProfile%\Workspace\Personal
 q4j=cd "%UserProfile%\Workspace\Quest for Justice"
 q4jc=cd "%UserProfile%\Workspace\Quest for Justice\Code"  
 
-open=explorer
+open=explorer $1  
