@@ -11,15 +11,18 @@ pwd=cd
 clear=cls
 history=cat -n "%CMDER_ROOT%\config\.history"
 unalias=alias /d $1
+realias=alias /reload
 
 ;= rem Navigation
 cmderr=cd /d "%CMDER_ROOT%"
 home=cd %UserProfile%
 workspace=cd %UserProfile%\Workspace
-dotfiles=cd %UserProfile%\Workspace\Core\dotfiles\
-notes=cd %UserProfile%\Workspace\Core\development-notes
+core=cd %UserProfile%\Workspace\Core\
+dotfiles=cd %UserProfile%\Workspace\Core\dotfiles
+devnotes=cd %UserProfile%\Workspace\Core\development-notes
+commonplace=cd %UserProfile%\Workspace\Core\commonplace
 personal=cd %UserProfile%\Workspace\Personal
 q4j=cd "%UserProfile%\Workspace\Quest for Justice"
-q4jc=cd "%UserProfile%\Workspace\Quest for Justice\Code"  
+q4jcode=cd "%UserProfile%\Workspace\Quest for Justice\Code"  
 
-open=explorer $1  
+open=explorer $*
