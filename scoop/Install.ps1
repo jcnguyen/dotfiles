@@ -26,4 +26,4 @@ Write-Host "installing Java utilities..."
 scoop install maven
 
 Write-Host "installing Nodejs..."
-scoop install nodejs-lts
+scoop install nodejs
