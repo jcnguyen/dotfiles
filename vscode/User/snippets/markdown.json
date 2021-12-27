@@ -20,7 +20,14 @@
 			"",
 			"- Today",
 			"  - ${0:log}",
-			""
+			"",
+			"- Review",
+			"  - How have I moved my projects forward?",
+			"    - Examples: Research, designing, or implementation",
+			"  - How have I made my life or my team's life easier?",
+			"    - Examples: Automate, discussing processes, documenting processes, implementing processes",
+			"  - Have I helped someone today?",
+			"    - Examples: Debugging, helping with a project"
 		],
 		"description": "The daily log template"
 	}
