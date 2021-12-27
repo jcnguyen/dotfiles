@@ -12,5 +12,9 @@
     "files.autoSave": "afterDelay",
     "editor.codeActionsOnSave": {
         "source.fixAll.markdownlint": true
+    },
+    "editor.snippetSuggestions": "top",
+    "[markdown]": {
+        "editor.quickSuggestions": true
     }
 }
