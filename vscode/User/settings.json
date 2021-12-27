@@ -16,5 +16,6 @@
     "editor.snippetSuggestions": "top",
     "[markdown]": {
         "editor.quickSuggestions": true
-    }
+    },
+    "editor.guides.bracketPairs": true
 }
