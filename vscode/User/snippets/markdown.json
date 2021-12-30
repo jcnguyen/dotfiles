@@ -16,7 +16,7 @@
 	"Daily Log Template": {
 		"prefix": ["log"],
 		"body": [
-			"### $CURRENT_DATE.$CURRENT_MONTH $CURRENT_DAY_NAME_SHORT",
+			"### $CURRENT_MONTH_NAME $CURRENT_DATE ($CURRENT_DAY_NAME)",
 			"",
 			"- Today",
 			"  - ${0:log}",
@@ -27,7 +27,8 @@
 			"  - How have I made my life or my team's life easier?",
 			"    - Examples: Automate, discussing processes, documenting processes, implementing processes",
 			"  - Have I helped someone today?",
-			"    - Examples: Debugging, helping with a project"
+			"    - Examples: Debugging, helping with a project",
+			""
 		],
 		"description": "The daily log template"
 	}
