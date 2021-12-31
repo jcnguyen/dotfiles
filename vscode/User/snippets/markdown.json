@@ -32,4 +32,10 @@
 		],
 		"description": "The daily log template"
 	}
+
+	"Date": {
+		"prefix": ["date"],
+		"body": ["$CURRENT_YEAR.$CURRENT_MONTH.$CURRENT_DATE"],
+		"description": "Prints the date in the format YYYY.MM.DD"
+	}
 }
