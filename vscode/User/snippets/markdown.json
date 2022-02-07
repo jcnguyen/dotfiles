@@ -18,8 +18,12 @@
 		"body": [
 			"### $CURRENT_MONTH_NAME $CURRENT_DATE ($CURRENT_DAY_NAME)",
 			"",
+			"- Scrum",
+			"  - Plan",
+			"    - ${1:plan}",
+			"",
 			"- Today",
-			"  - ${0:log}",
+			"  - ${2:log}",
 			"",
 			"- Review",
 			"  - How have I moved my projects forward?",
@@ -37,11 +41,5 @@
 		"prefix": ["date"],
 		"body": ["$CURRENT_YEAR.$CURRENT_MONTH.$CURRENT_DATE"],
 		"description": "Prints the date in the format YYYY.MM.DD"
-	}
-
-	"Date": {
-		"prefix": ["date"],
-		"body": ["$CURRENT_YEAR.$CURRENT_MONTH.$CURRENT_DATE"],
-		"description": "Prints the date in the format YYYY.MM.DD"
-	}
+	},
 }
