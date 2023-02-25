@@ -1,14 +1,14 @@
 {
-	"color_scheme": "Packages/Materialize/schemes/Material Facebook.tmTheme",
-	"font_size": 14,
+	"color_scheme": "Packages/Materialize/schemes/Material Toy Chest.tmTheme",
+	"font_size": 15,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
 	],
 	"rulers":
 	[
 		80
 	],
-	"theme": "Material Facebook.sublime-theme",
-	"word_wrap": "true"
+	"theme": "Material Toy Chest.sublime-theme",
+	"word_wrap": "true",
 }

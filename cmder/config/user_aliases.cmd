@@ -24,5 +24,8 @@ commonplace=cd %UserProfile%\Workspace\Core\commonplace
 personal=cd %UserProfile%\Workspace\Personal
 q4j=cd "%UserProfile%\Workspace\Quest for Justice"
 q4jcode=cd "%UserProfile%\Workspace\Quest for Justice\Code"  
+questservice=cd "%UserProfile%\Workspace\Quest for Justice\Code\QuestService"  
+questui=cd "%UserProfile%\Workspace\Quest for Justice\Code\QuestUI"  
+accountservice=cd "%UserProfile%\Workspace\Quest for Justice\Code\AccountService"  
 
 open=explorer $*

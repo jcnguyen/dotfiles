@@ -9,4 +9,8 @@ The setup script directory structure depends on Cmder being installed by Scoop.
 3. Run `setup.cmd`
 4. May need to discard changes to `ConEmu.xml` to see changes
 
-The script creates a symbolic link of the preferences to the dotfiles in this repo. A copy of the preferences is saved in the `temp` folder. 
+The script creates a symbolic link of the preferences to the dotfiles in this repo. A copy of the preferences is saved in the `temp` folder.
+
+## Cheatsheet
+
+- List all the aliases: `alias`

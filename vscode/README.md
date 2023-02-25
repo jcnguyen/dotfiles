@@ -24,3 +24,7 @@ This will generate an `extensions.txt` file.
 2. Run `make install-extensions`
 
 You may need to manually enable the extensions in VS Code.
+
+## Cheatsheet
+
+- Custom snippets are defined in the `vscode/User/snippets` directory of your dotfiles
