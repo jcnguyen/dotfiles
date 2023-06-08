@@ -28,6 +28,7 @@ Describes my manual setup for a new machine.
     - Monitor
     - Keyboard
     - Mouse
+    - Headphones
     - See dotfiles
 
 ## Programs and Configurations
