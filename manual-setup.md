@@ -24,6 +24,11 @@ Describes my manual setup for a new machine.
 - Run the scoop `Install` script in dotfiles as an admin in PowerShell (may need to turn off firewall)
 - Setup dotfiles (see subfolders)
 - Pin Start apps
+- Set up peripherals
+    - Monitor
+    - Keyboard
+    - Mouse
+    - See dotfiles
 
 ## Programs and Configurations
 
@@ -32,12 +37,6 @@ Describes my manual setup for a new machine.
 - ExpressVPN
 - Calibre
 - Chrome
-  - Sign in
-  - Go to `Settings` -> `On Startup` and select `Continue where you left off`
-  - Configure Chrome for work:
-    - Create a Google account using your company email address
-    - Turn on syncing
-    - Check extensions
 - Firefox
 - Obsidian
 - Spotify
