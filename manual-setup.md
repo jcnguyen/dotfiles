@@ -2,46 +2,44 @@
 
 # Manual Setup
 
-The following describes the manual setup for a new machine.
+Describes my manual setup for a new machine.
 
-## General Configurations
+## General Configurations for Windows
 
-Some configuration is meant specifically for Windows 10.
-
-- Verify that the "User" is expected and not the Microsoft default. Change the name if it's not expected.
+- Check the `User` directory name
 - Remove bloatware
 - Move taskbar to the top
 - Change background, lock screen, color
-- Turn on desktop notifications for email and calendar
-- Turn off sound for desktop notifications
 - Show hidden files and extensions
 - Setup the local directory structure and add the root to the Quick Access side bar:
 
     ```text
-    Workspace
-    |- Core
-    |- Personal
-    |- [Name of Company/Organization]
+    Workspace/
+    |- Core/
+    |- Personal/
+    |- ...
     ```
 
 - Clone development notes and dotfile repositories into `Core`
 - Run the scoop `Install` script in dotfiles as an admin in PowerShell (may need to turn off firewall)
 - Setup dotfiles (see subfolders)
+- Pin Start apps
 
 ## Programs and Configurations
 
 - Adobe Digital Editions: To side load ebooks
+- Authy Desktop
 - ExpressVPN
+- Calibre
 - Chrome
   - Sign in
   - Go to `Settings` -> `On Startup` and select `Continue where you left off`
   - Configure Chrome for work:
     - Create a Google account using your company email address
     - Turn on syncing
-    - Add extensions: password manager, Adblock, Privacy Badger, React Developer Tools
-    - Add Admin bookmarks, sign in, add passwords to password manager (email, Slack, documents, HR)
+    - Check extensions
 - Firefox
-- Skype
+- Obsidian
 - Spotify
 - Logitech Options
 - Zoom
